@@ -1,0 +1,25 @@
+Request:
+
+# MongoDB
+need install MongoDB and add its bin into file
+e.g. export PATH=$PATH:/Users/william/mongodb/bin/
+
+# python
+we use python 2.7 as the develop enviroment
+
+# install request package
+pip install pymongo
+pip install bson
+pip install wordcloud
+pip install numpy
+pip install pandas
+pip intall collections
+pip install matplotlib
+pip install dash
+pip install plotly
+
+# give the access permission to the file Data2MongoDB.sh
+chmod +x Data2MongoDB.sh
+
+# execute the web page
+python app.py
